@@ -18,4 +18,13 @@ public class Menu {
 //        PizzaMenu = pizzaMenu;
 //    }
 
+    public Pizza searchPizza(String name){
+        for (Pizza pizza:this.PizzaMenu
+             ) {
+            if(pizza.name.equals(name)){
+                return pizza;
+            }
+        }
+        return null;
+    }
 }

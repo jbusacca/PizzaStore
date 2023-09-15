@@ -45,7 +45,8 @@ public class Application {
             if (input.equals("order pizza")){
                 System.out.println("Please enter your pizza order: ");
                 String pizzaOrder = sc.nextLine();
-                System.out.println("You ordered a "+ pizzaOrder +". Would you please pay: ");
+                System.out.println("You ordered a "+ pizzaOrder+" and price:"+pizzaMenu.searchPizza(pizzaOrder).getPrice());
+                System.out.println("");
             }
             if (input.equals("exit")){
                 System.out.println("Enjoy your pizza!");
