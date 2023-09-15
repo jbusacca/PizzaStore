@@ -19,12 +19,12 @@ public class Menu {
 //    }
 
     public Pizza searchPizza(String name){
-        System.out.println("Search pizza:"+name);
+        //System.out.println("Search pizza:"+name);
         for (Pizza pizza:this.PizzaMenu
              ) {
-            System.out.println("iside for loop, pizza:"+pizza);
+            //System.out.println("iside for loop, pizza:"+pizza);
             if(pizza.name.equals(name)){
-                System.out.println("inside IF statement, isEqual:"+pizza.name.equals(name));
+                //System.out.println("inside IF statement, isEqual:"+pizza.name.equals(name));
                 return pizza;
             }
         }
